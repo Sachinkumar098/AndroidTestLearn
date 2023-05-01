@@ -16,6 +16,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+
             AndroidTestLearnTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
@@ -25,6 +26,7 @@ class MainActivity : ComponentActivity() {
                     Greeting("Android")
                 }
             }
+
         }
     }
 }
